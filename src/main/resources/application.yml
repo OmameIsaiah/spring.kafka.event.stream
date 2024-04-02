@@ -13,10 +13,3 @@ spring:
       bootstrap-servers: localhost:19092
 #      key-serializer: org.apache.kafka.common.serialization.StringSerializer
 #      value-serializer: org.apache.kafka.common.serialization.StringSerializer
-
-#Commands to start Zookeeper and Kafka:
-#.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
-#.\bin\windows\kafka-server-start.bat .\config\server.properties
-# zookeeper-server-start.bat ..\..\config\zookeeper.properties
-#Reference: https://jskim1991.medium.com/docker-docker-compose-example-for-kafka-zookeeper-and-schema-registry-c516422532e7
-
